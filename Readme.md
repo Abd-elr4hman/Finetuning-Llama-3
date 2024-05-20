@@ -1,5 +1,5 @@
 # Finetuning Llama 3
-in this repo I experiment with finetuning llama3 8b model on syntheting dataset created using gpt4-o.
+In this repo I experiment with finetuning llama3 8b model on synthetic dataset created using gpt4-o.
 
 ## Problem statment
 I want to create generate a medical report based on patient history and some measurments on the patient current health status.
