@@ -2,7 +2,7 @@
 In this repo I experiment with finetuning llama3 8b model on synthetic dataset created using gpt4-o.
 
 ## Problem statment
-I want to create generate a medical report based on patient history and some measurments on the patient current health status.
+I want to generate a medical report based on patient history and some measurments on the patient current health status.
 
 I want the report to be detailed and describe each measurment.
 
