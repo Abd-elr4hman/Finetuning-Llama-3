@@ -1,5 +1,5 @@
 # Finetuning-Serving Llama 3
-In this repo I experiment with finetuning llama3 8b model on synthetic dataset created using gpt4-o.
+In this repo I experiment with finetuning llama3 8b model on synthetic dataset created using gpt4-o. Followed by a full deployment to both synth streaming endpoint with langserve and async endpoint with FastAPI.
 
 ## Problem statment
 I want to generate a medical report based on patient history and some measurments on the patient current health status.
