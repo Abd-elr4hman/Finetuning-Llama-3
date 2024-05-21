@@ -1,3 +1,4 @@
 /.env
 /lora_model
 /.venv
+/models

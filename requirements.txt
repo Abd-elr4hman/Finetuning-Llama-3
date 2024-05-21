@@ -1,3 +1,7 @@
 pandas
 openai
 python-dotenv
+llama-cpp-python
+langchain_community
+langchain_core
+langserve[all]

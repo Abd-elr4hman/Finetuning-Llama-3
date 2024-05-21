@@ -22,9 +22,28 @@ I used the finetuning notebook offerd by [unsloth](https://github.com/unslothai/
 
 Complete notebook can be found in ```notebooks/Create_synthetic_dataset``` or on [GoogleColab](https://colab.research.google.com/drive/1iSAv8jwN3-fV9NVGqd_xEgAnu4p7kttq?usp=sharing)
 
-
-## Outcome
 llama 8b finetuned adheres very well to the format in the training data.
 
 ## Inference Examples
 Examples can be fount in examples directory.
+
+## Deployment
+### Sync-architecture 
+![alt text](<Screenshot 2024-05-21 at 8.54.16 PM.png>)
+
+The web server is created using langServe library, check it out [here](https://www.langchain.com/langserve).
+
+To run the server:
+1. install requirements 
+```pip install -r requirements.txt```
+2. make sure you have the model in gguf format saved in the ```/model``` directory
+3. run ```poetry run langchain serve --port=8100```
+
+### Async-architecture
+Built the async api using FastAPI and BackgroundTask
+
+To run the server:
+1. install requirements 
+```pip install -r requirements.txt```
+2. make sure you have the model in gguf format saved in the ```/model``` directory
+3. run```uvicorn main:app --host 0.0.0.0 --port 8000 --reload```
