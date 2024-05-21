@@ -1,4 +1,4 @@
-# Finetuning Llama 3
+# Finetuning-Serving Llama 3
 In this repo I experiment with finetuning llama3 8b model on synthetic dataset created using gpt4-o.
 
 ## Problem statment
